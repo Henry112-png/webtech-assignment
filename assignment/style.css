@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #58a6dc;
+    padding: 10px 20px;
+}
+
+.logo h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.logo .highlight {
+    color: #0f2f13;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
